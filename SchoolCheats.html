@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Cheats - HotPiktrez</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <h1>SCHOOL CHEATS</h1>
+            <p>HotPiktrez</p>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="hero">
+            <h2>Hacks para la escuela</h2>
+            <p>Clasificado, verificado, gratis</p>
+        </div>
+
+        <div class="categories">
+            <div class="category" onclick="showCategory('games')">
+                <h3>Juegos</h3>
+                <p>Kahoot, Quizizz, Blooket</p>
+            </div>
+            <div class="category" onclick="showCategory('ias')">
+                <h3>IAs</h3>
+                <p>ChatGPT, Claude, Gemini</p>
+            </div>
+            <div class="category" onclick="showCategory('calculators')">
+                <h3>Calculadoras</h3>
+                <p>Desmos, TI-Nspire, Wolfram</p>
+            </div>
+            <div class="category" onclick="showCategory('general')">
+                <h3>General</h3>
+                <p>Shortcuts, PDFs, Métodos</p>
+            </div>
+        </div>
+
+        <div id="content" class="content">
+            <p class="loading">Selecciona una categoría</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made by HotPiktrez | <a href="https://github.com/NotPxtrez/SchoolCheats">GitHub</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
